@@ -1,0 +1,50 @@
+h1{
+    text-align:center;
+}
+h1:hover{
+    font-size: 40px;
+    transition: 0.5s;
+}
+p{
+    color: lawngreen;
+    text-align: center;
+}
+p:hover{
+    font-size: 20px;
+
+    transition: 0.50s;
+}
+
+
+button{
+    border-radius: 100px;
+    color:darkgreen;
+    background-color: black;
+    position: absolute(20px);
+}button:hover{
+    border-radius: 30px;
+    color: rgb(54, 90, 0);
+    border-radius: 5px;
+    transition: 0.75s;
+}
+button:active{
+    background-color: black;
+    color: rgb(128, 255, 0);
+    border-radius: 3px;
+    border-width: 2px;
+    transition: 0.30s;
+}
+img:hover{
+    width: 150px;
+    
+    transition: 1s;
+}
+
+style{
+    text-align: justify;
+}
+body{
+    background: rgb(17,17,17);
+background: linear-gradient(180deg, rgba(17,17,17,1) 21%, rgba(121,9,45,1) 100%);
+background-attachment: fixed;
+}

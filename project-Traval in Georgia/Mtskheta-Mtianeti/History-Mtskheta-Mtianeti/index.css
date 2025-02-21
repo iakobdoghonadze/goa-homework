@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(133, 147, 161);
+}
+header{
+    height:100px;
+    width:100%;
+    background-image: url(/Mtskheta-Mtianeti/mainbackground.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+
+    display:grid;
+    align-items:center;
+    position:sticky;
+    top:0
+    
+}
+h1{
+    color: aqua;
+}
+#General-div{
+    display:flex;
+    margin-top:20px;
+    transition: 0.2s;
+}
+img{
+    width:800px;
+    height:auto;
+    border-radius:80px;
+    transition:0.2s
+}
+img:hover{
+    width:825px;
+    border:5px solid black;
+}
+#general-p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+#back-to-main{
+    height:50px;
+    width: 100px;
+    padding:5px;
+    background-color:rgb(36, 36, 105);
+    color:antiquewhite;
+    border:2px solid black;
+    border-radius:10px;
+    font-weight: bolder;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    left:20px;
+}
+#back-to-main:hover{
+    transform: scale(1.1) ;
+    transition-duration: 30ms
+}
+
+#Back-to-main-mtsxeta{
+    height:50px;
+    width: 100px;
+    padding:5px;
+    background-color:rgb(36, 36, 105);
+    color:antiquewhite;
+    border:2px solid black;
+    border-radius:10px;
+    font-weight: bolder;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    left:20px;
+}
+
+#Back-to-main-mtsxeta:hover{
+    transform: scale(1.1) ;
+    transition-duration: 30ms
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}

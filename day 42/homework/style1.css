@@ -1,0 +1,21 @@
+.EXPERIMENT {
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+.dote {
+    border-style: dotted;
+}
+
+.dash {
+    border-style: dashed;
+}
+
+.dable {
+    border-style: double;
+}
+
+.griveb {
+    border-style: groove;
+}

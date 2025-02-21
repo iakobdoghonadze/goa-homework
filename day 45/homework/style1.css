@@ -1,0 +1,29 @@
+p{
+    text-align: justify ;
+}
+body{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(197,20,255,1) 50%, rgba(0,0,0,1) 100%);
+}
+.veneno{
+    text-align: center;
+    color: rgb(43, 255, 0);
+    font-size:20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .Apollo{
+    text-align: center;
+    color:rgb(255, 166, 0);
+    font-size: 20px; 
+}
+.headline{
+    text-align: center;
+    color: dodgerblue;
+    font-size: 50px;
+}

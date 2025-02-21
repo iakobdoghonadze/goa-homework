@@ -1,0 +1,21 @@
+input[type="text"]{
+    border: 3px;
+    color: blue;
+    border-style: solid;
+    outline: none;
+    border-radius: 5px;
+}
+input[type="email"]{
+    border: 3px;
+    color: rgba(51, 255, 0, 0.596);
+    border-style: solid;
+    outline: none;
+    border-radius: 5px;
+}
+input[type="text"]{
+    border: 3px;
+    color: blue;
+    border-style: dotted;
+    outline: none;
+    border-radius: 5px;
+}

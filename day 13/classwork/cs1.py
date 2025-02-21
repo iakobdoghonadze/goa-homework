@@ -1,0 +1,5 @@
+score = str(input("ტესტზე მიღებული ქულა/score gotten on the test:"))
+if score > 90 and score < 100: print("you have been fully financed for study purposes")
+elif score > 70 and score < 80: print("you have been financed with 1500gel")
+elif score > 40 and score < 70: print("you have been financed by 500gel")
+elif score <40 : print("you have not been financed im really sorry but git gud :>")

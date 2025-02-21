@@ -1,0 +1,45 @@
+div{
+    border: 10px;
+    border-color: red;
+    border-width: 10px;
+}
+#q1
+{
+    position: relative;
+    right: 10px;
+}
+#q2
+{
+    position: relative;
+    right: 30px;
+}
+#q3{
+    position: relative;
+    right: 10px;
+}
+#q4
+{
+    position: relative;
+    right: 30px;
+}#q5{
+    position: relative;
+    right: 10px;
+}
+#q6
+{
+    position: relative;
+    right: 30px;
+}#q7
+{
+    position: relative;
+    right: 10px;
+}
+#q8
+{
+    position: relative;
+    right: 30px;
+}
+#q9{
+    position: relative;
+    right: 10px;
+}

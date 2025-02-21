@@ -1,0 +1,80 @@
+.profile_frame{
+  height: 475px;
+  width: 375px;
+  background-color: rgb(54, 54, 54);
+  border-radius: 10px;
+  border-width: 10px;
+}
+.pfp{
+  margin-right: 525px;
+  margin-top:-60px ;
+  width:100px;
+  border-radius:100%;
+}
+.name{
+  margin-right: 525px;
+  margin-top: -25px;
+  font-family: sans-serif;
+}
+.location{
+  margin-right: 525px;
+  margin-top: -40px;
+}
+.work{
+  margin-right: 525px;
+  margin-top:-30px
+}
+.button1{
+  margin-right: 525px;
+  margin-top: 3px;
+}
+.button2{
+  margin-right: 525px;
+  margin-top: 13px;
+}
+.button3{
+  margin-right: 525px;
+  margin-top: 13px;
+}
+.button4{
+  margin-right: 525px;
+  margin-top: 13px;
+}
+.button5{
+  margin-right: 525px;
+  margin-top: 13px;
+}
+
+div{
+  flex-direction:column;
+  display:flex;
+  margin-left:525px;
+  margin-top: 100px;
+  align-items: center;
+}
+h2{
+  font-family: sans-serif;
+  color:whitesmoke;
+}
+h5{
+  font-family: sans-serif;
+  color: chartreuse;
+}
+h4{
+  color: rgb(124, 124, 124);
+  font-size: 13.5px;
+}
+button{
+  border: none;
+  background-color: rgb(68, 68, 68);
+  color: rgb(199, 199, 199);
+  border-radius: 5px;
+  width: 350px;
+  height: 35px;
+}
+button:active{
+  border: none;
+}
+body{
+  background-color:rgb(29, 29, 29);
+}

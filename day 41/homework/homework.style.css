@@ -1,0 +1,24 @@
+a:link{
+    color: blue;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    color: chartreuse;
+    background-color: grey;
+    font-size: 16px;
+    transition: 1s;
+}
+a:active{
+    background-color: black;
+    color: chartreuse;
+    font-size: 17px;
+    transition: 0.7s;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

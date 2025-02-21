@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(1, 70, 39);
+}
+
+h1{
+    text-align: center;
+    color: palegreen;
+}
+img:hover{
+    transition:0.3s;
+}
+img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h2{
+    color: yellow;
+    padding-left: 15px;
+}
+
+p{
+    font-size: 20px;
+    color: forestgreen;
+    padding-left: 15px;
+}
+
+li a{
+    color: aqua;
+}
+
+#lia1:hover{
+    color: darkolivegreen;
+    transition: 0.7ms;
+    font-size: large;
+}
+
+#lia2:hover{
+    color: darkolivegreen;
+    transition: 0.7ms;
+    font-size: large;
+}
+
+
+#a1{
+    text-decoration: none;
+    color: rgb(0, 255, 157);
+    padding-left: 15px;
+}
+
+a{
+    padding-left: 15px;
+}
+a:hover{
+    text-decoration:none;
+}
+
+#a1:hover{
+    text-decoration: underline rgb(10, 47, 9);
+    font-size: 25px;
+    transition: 0.7ms;
+    color: rgb(10, 47, 9);
+}
+
+#a2{
+    text-decoration: none;
+    color: rgb(0, 255, 157);
+    padding-left: 15px;
+}
+
+#a2:hover{
+    text-decoration: underline rgb(10, 47, 9);
+    font-size: 25px;
+    transition: 0.7ms;
+    color: rgb(10, 47, 9);
+}
+
+img{
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+#parent_div{
+    display: flex;
+    
+}
+
+#div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 25px;
+}
+
+#div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img1{
+    padding-bottom: 15px;
+}
+
+#img1:hover{
+    height: 375px;
+    width: 525px;
+    border-radius: 15px;
+    border: 10px solid black;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+#img2{
+    padding-bottom: 15px;
+}
+
+#img2:hover{
+    height: 375px;
+    width: 525px;
+    border-radius: 15px;
+    border: 10px solid black;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+#img3{
+    padding-bottom: 15px;
+}
+
+#img3:hover{
+    height: 375px;
+    width: 525px;
+    border-radius: 15px;
+    border: 10px solid black;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+#img4{
+    padding-bottom: 15px;
+}
+
+#img4:hover{
+    height: 375px;
+    width: 525px;
+    border-radius: 15px;
+    border: 10px solid black;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+#img5{
+    padding-bottom: 15px;
+}
+
+#img5:hover{
+    height: 375px;
+    width: 525px;
+    border-radius: 15px;
+    border: 10px solid black;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+#img6{
+    padding-bottom: 15px;
+}
+
+#img6:hover{
+    height: 375px;
+    width: 525px;
+    border-radius: 15px;
+    border: 10px solid black;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+#img7{
+    padding-bottom: 15px;
+}
+
+#img7:hover{
+    height: 375px;
+    width: 525px;
+    border-radius: 15px;
+    border: 10px solid black;
+    padding: 0px;
+    margin-bottom: 15px;  
+}
+
+#img8{
+    padding-bottom: 15px;
+}
+
+#img8:hover{
+    height: 375px;
+    width: 525px;
+    border-radius: 15px;
+    border: 10px solid black;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+#img9{
+    padding-bottom: 15px;
+}
+
+#img9:hover{
+    height: 375px;
+    width: 525px;
+    border-radius: 15px;
+    border: 10px solid black;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+#img10{
+    padding-bottom: 15px;
+}
+
+#img10:hover{
+    height: 375px;
+    width: 525px;
+    border-radius: 15px;
+    border: 10px solid black;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}

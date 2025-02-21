@@ -1,0 +1,28 @@
+.div1{
+    width: 150px;
+    height: 150px;
+    border-width: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;}
+.div2{
+    width: 150px;
+    height: 150px;
+    border-width: 3px;
+    padding-left: 20px;
+    padding-right: 23px;
+    padding-top: 28px;
+    padding-bottom: 15px;
+    background-color: aqua;
+
+}
+.div3{
+    width: 150px;
+    height: 150px;
+    border-width: 3px;
+    padding: 10px 30px 15px 20px ;
+    background-color:lightcoral
+
+}

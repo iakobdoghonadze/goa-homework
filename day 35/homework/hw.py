@@ -1,0 +1,2 @@
+print("https://www.codewars.com/kata/5ab6538b379d20ad880000ab/train/python" + " https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/python" + " https://www.codewars.com/kata/57a2013acf1fa5bfc4000921" + " https://www.codewars.com/kata/5715eaedb436cf5606000381/train/python" + " https://www.codewars.com/kata/56dae9dc54c0acd29d00109a/train/python")
+ 

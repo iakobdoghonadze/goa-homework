@@ -1,0 +1,7 @@
+name = (input())
+last_name = (input())
+age = (input())
+living_place = (input())
+work = (input())
+hobby = (input())
+print(("question:what's your name? answer:my name is ") + name + (", question:what is your last name? answer:my last name is ") + last_name + (", question:how old are you? answer:im ") + age + (", queston:where do you live? answer:i live in ") + living_place + (", question:what do you do for work? answer:") + work + (", question:what is you hobby? answer:i like " + hobby) + ("."))

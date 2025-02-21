@@ -1,0 +1,5 @@
+color = input("color please:")
+if color == "red" : print("box1")
+elif color == "green" : print("box2")
+elif color == "black" : print("box3")
+else : print("unknown")

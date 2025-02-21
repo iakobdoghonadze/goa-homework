@@ -1,0 +1,11 @@
+.p1{
+    text-decoration: underline wavy green;
+    color: black;
+}
+.p2{
+    text-decoration: overline dashed red;
+    text-decoration: underline dashed red;
+}
+.p3{
+    text-decoration: line-through dashed blue;
+}

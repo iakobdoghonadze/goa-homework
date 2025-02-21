@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(68, 82, 82) ;
+}
+header{
+    height:100px;
+    width:100%;
+   background-image: url(/Mtskheta-Mtianeti/mainbackground.png);
+   background-size: cover;
+   background-position: center;
+
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+
+    display:grid;
+    align-items:center;
+}
+#sveticxoveli-p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 140px;
+}
+h1{
+    color:black;
+    font-size:45px
+}
+img{
+    height: 450px;
+    width:auto;
+    border-radius:80px;
+    transition:0.5s
+}
+#sveticxoveli-parent{
+    display:flex;
+    margin-top:40px;
+    transition: 0.5s;
+}
+#sveticxoveli-parent:hover{
+    box-shadow: 0px 7px 30px 30px black;
+    border-radius:80px;
+    img{
+        height:500px;
+        border:5px solid black
+    }
+}
+#ananuri-parent{
+    display:flex; 
+    margin-top:40px;
+    margin-bottom:40px;
+    transition: 0.5s;
+}
+#ananuri-parent:hover{
+    box-shadow: 0px 7px 30px 30px black;
+    border-radius:80px;
+    img{
+        height:500px;
+        border:5px solid black;
+    }
+}
+#ananuri-p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 140px;
+}
+#gergeti-parent{
+    display:flex; 
+    margin-bottom:40px;
+    transition: 0.5s;
+}
+#gergeti-parent:hover{
+    box-shadow: 0px 7px 30px 30px black;
+    border-radius:80px;
+    img{
+        height:500px;
+        border:5px solid black;
+    }
+    
+}
+#gergeti-p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 140px;
+}
+.invitation{
+    font-size:25px
+}
+button{
+    height:50px;
+    width: 100px;
+    padding:5px;
+    background-color:rgb(36, 36, 105);
+    color:antiquewhite;
+    border:2px solid black;
+    border-radius:10px;
+    font-weight: bolder;
+    margin-top:5px;
+}
+button:hover{
+    transform: scale(1.1) ;
+    transition-duration: 30ms ;
+}
+nav{
+    height:40px;
+    width:100%;
+    margin-bottom:7px ;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+#nav-a{
+    height:50px;
+    width: 100px;
+    padding:5px;
+    background-color:rgb(36, 36, 105);
+    color:antiquewhite;
+    border:2px solid black;
+    border-radius:10px;
+    font-weight: bolder;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    position: relative;
+    bottom: 70px;
+}
+#back-to-main{
+    height:50px;
+    width: 100px;
+    padding:5px;
+    background-color:rgb(36, 36, 105);
+    color:antiquewhite;
+    border:2px solid black;
+    font-weight: bolder;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    left:20px;
+    bottom:10px;
+    border-radius:10px
+}
+#back-to-main:hover{
+    transform: scale(1.1) ;
+    transition-duration: 30ms
+}
