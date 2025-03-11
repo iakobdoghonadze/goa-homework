@@ -1,0 +1,12 @@
+button{
+    background-color: aquamarine;
+}
+button:hover{
+    transition: 0.5s;
+    background-color: blue;
+}
+button:active{
+    transform:rotate(360deg);
+    background-color: blueviolet;
+    transform:scaleX(250px);
+}

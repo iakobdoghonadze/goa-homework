@@ -1,0 +1,17 @@
+img{
+    transform: scale(100px);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    cursor: pointer
+}
+img:hover{
+    transform: translateX(500px) translateY(300px) skewX(360deg);
+    transition: 4s;}
+img:active{
+    transform: scale(0.5) rotate(-90deg) ;
+}
+body{
+    display: flex;
+    justify-content: center;    
+}

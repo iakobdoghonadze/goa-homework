@@ -1,0 +1,14 @@
+@keyframes changeColor {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+.spinner {
+    width: 400px;
+    height: 400px;
+    animation: changeColor 2s infinite alternate;
+}

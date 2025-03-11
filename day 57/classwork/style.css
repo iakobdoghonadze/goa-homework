@@ -1,0 +1,17 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(255, 0, 0);
+    font-weight: lighter;
+    cursor: pointer;
+    transition: transform 1s ;
+
+}
+div:hover {
+    transform: rotate(1480deg) scale(1.5);
+}
