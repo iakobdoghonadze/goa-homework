@@ -1,0 +1,30 @@
+.animation {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 255, 234);
+    background-color: rgb(13, 58, 0);
+    font-size: 20px;
+    animation: animation 3s infinite alternate ease-in-out;
+    font-weight: bold;
+}
+
+@keyframes animation {
+    0% {
+        background-color: rgb(8, 255, 54);
+        color: white;
+        font-size: 25px;
+    }
+    50% {
+        background-color: rgb(255, 179, 0);
+        color: rgb(0, 0, 0);
+        font-size: 35px;
+    }
+    100% {
+        background-color: rgb(255, 0, 255);
+        color: rgb(255, 0, 0);
+        font-size: 45px;
+    }
+}
