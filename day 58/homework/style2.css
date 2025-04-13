@@ -1,0 +1,31 @@
+@keyframes animations{
+    from{
+     transform: translateX(1px);
+    } 
+    to{
+     transform: translateX(1425px);
+    }
+}
+
+@keyframes changeColor {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+
+.div{
+display: flex;
+position: absolute;
+width:100px;
+height:100px;
+color: red;
+background-color: rgb(255, 0, 0);
+}
+.div{
+    animation: animations 5s infinite alternate, changeColor 5s infinite alternate;
+    transition: 1s;
+}

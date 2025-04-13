@@ -1,0 +1,17 @@
+@keyframes animation{
+   from{
+    transform: translateX(1px);
+   } 
+   to{
+    transform: translateX(1425px);
+   }
+}
+#yes{
+    display: flex;
+    position: absolute;
+    width:100px;
+    height:100px;
+    color: red;
+    background-color: rgb(255, 0, 0);
+    animation: animation 5s infinite alternate;
+}
