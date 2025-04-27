@@ -1,0 +1,9 @@
+print(
+"1)https://www.codewars.com/kata/5601409514fc93442500010b"
+"2)https://www.codewars.com/kata/566dc566f6ea9a14b500007b"
+"3)https://www.codewars.com/kata/568dc014440f03b13900001d"
+"4)https://www.codewars.com/kata/515e271a311df0350d00000f"
+"5)https://www.codewars.com/kata/55a996e0e8520afab9000055"
+"6)https://www.codewars.com/kata/55f1b763dd670651620000ce"
+"7)https://www.codewars.com/kata/57e1e61ba396b3727c000251"
+)

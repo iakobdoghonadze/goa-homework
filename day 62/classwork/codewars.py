@@ -1,0 +1,1 @@
+print("codewarsebis linkebi ar maqvs")
