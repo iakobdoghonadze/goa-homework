@@ -1,0 +1,33 @@
+#parent{
+    border-color:green;
+    border: 10px;
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+}
+#child1{
+ background-color: aqua;
+}#child2{
+    background-color: blue;
+}
+#child3{
+    background-color: red;
+}
+#child4{
+    background-color: yellow;
+}
+#child5{
+    background-color: orange;
+}
+#child6{
+    background-color: purple;
+}
+#child7{
+    background-color: pink;
+}
+#child8{
+    background-color: green;
+}
+#child9{
+    background-color: brown;
+}

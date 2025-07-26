@@ -1,0 +1,400 @@
+:root {
+    --purple-Lt: hsl(254, 88%, 90%);
+    --purple: hsl(256, 67%, 59%);
+    --yellow-Lt: hsl(31, 66%, 93%);
+    --yellow: hsl(39, 100%, 71%);
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 7%);
+
+    --18px: 1.125rem;
+
+    --spacing-100: .5rem;
+    --spacing-200: 1rem;
+    --spacing-300: 1.5rem;
+    --spacing-400: 2rem;
+    --spacing-500: 2.5rem;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "DM Sans", sans-serif;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    background: #F6F5F6;
+}
+.attribution {
+    font-size: .8rem;
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    color: var(--black);
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    color: var(--purple);
+    position: relative;
+    font-weight: 600;
+    text-decoration: none;
+    z-index: 1; 
+    transition: color 0.5s ease-in-out;
+}
+.attribution a::before {
+    background: var(--purple);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+}
+.attribution a:hover {
+    color: var(--black);
+}
+.attribution a:hover::before {
+    transform: scaleY(1);
+    transform-origin: bottom;
+}
+
+.container {
+    background: #F6F5F6;
+    display: grid;
+    gap: var(--spacing-400);
+    padding: var(--spacing-400) var(--spacing-200) var(--spacing-500);
+    position: relative;
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.625rem;
+    }
+
+    .card:nth-child(1) {
+        background: var(--purple);
+        justify-content: center;
+        align-items: center;
+        gap: var(--spacing-300);
+        padding: var(--spacing-500) var(--spacing-400);
+
+        h1, p {
+            color: var(--white);
+        }
+        .tenX {
+            color: var(--yellow);
+        }
+        .italic {
+            font-style: italic;
+        }
+    
+        .img-wrapper {
+            max-width: 12rem;
+        }
+        p {
+            margin-top: var(--spacing-100);
+        }
+    }
+
+    .card:nth-child(2) {
+        background: var(--white);
+        align-items: flex-start;
+        gap: var(--spacing-200);
+        padding: var(--spacing-200);
+
+        .img-wrapper {
+            max-width: 19.75rem;
+        }
+    }
+
+    .card:nth-child(3) {
+        background: var(--yellow);
+        gap: var(--spacing-200);
+        padding: var(--spacing-200) var(--spacing-200) 0;
+
+        .img-wrapper {
+            max-width: 13rem;
+            max-height: 9.813rem;
+        }
+    }
+
+    .card:nth-child(4) {
+        background: var(--purple-Lt);
+        align-items: center;
+        justify-content: center;
+        gap: var(--spacing-300);
+        padding: var(--spacing-400);
+
+        .img-wrapper {
+            max-width: 22.313rem;
+        }
+        p {
+            text-align: center;
+            max-width: 22.438rem;
+        }
+    }
+
+    .card:nth-child(5) {
+        background: var(--purple);
+        align-items: center;
+        justify-content: center;
+        gap: var(--spacing-500);
+        padding: var(--spacing-300);
+
+        .img-wrapper {
+            max-width: 14.25rem;
+        }
+        h3 {
+            text-align: center;
+            color: var(--white);
+            max-width: 16.063rem;
+        }
+    }
+
+    .card:nth-child(6) {
+        background: var(--white);
+        gap: var(--spacing-300);
+        padding: var(--spacing-300);
+
+        .img-wrapper {
+            max-width: 11.188rem;
+        }
+        div p {
+            margin-top: 0.938rem;
+        }
+    }
+
+    .card:nth-child(7) {
+        background: var(--yellow-Lt);
+        align-items: flex-start;
+        justify-content: center;
+        gap: var(--spacing-300);
+        padding: var(--spacing-400);
+
+        h3 .italic {
+            color: var(--purple);
+            font-style: italic;
+        }
+        .img-wrapper {
+            max-width: 11.875rem;
+        }
+    }
+
+    .card:nth-child(8) {
+        background: var(--yellow);
+        gap: var(--spacing-300);
+        padding: var(--spacing-300);
+
+        .img-wrapper {
+            max-width: 13.75rem;
+        }
+    }
+
+    
+    h1 {
+        font-size: 2.875rem;
+        font-weight: 500;
+        text-align: center;
+        line-height: 2.625rem;
+    }
+    h2 {
+        font-size: 1.625rem;
+        font-weight: 500;
+        line-height: 1.5rem;
+        letter-spacing: -0.098rem;
+    }
+    h3 {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1.75rem;
+        letter-spacing: -0.12rem;
+    }
+    h4 {
+        font-size: 2.875rem;
+        font-weight: 500;
+        line-height: 2.625rem;
+        letter-spacing: -0.115rem
+    }
+    p {
+        font-size: var(--18px);
+        font-weight: 400;
+        line-height: 1.25rem;
+    }
+}
+@media (width >= 48rem) {
+    .container {
+        padding: 3.25rem 2.5rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        " card1 card1 "
+        " card2 card3 "
+        " card4 card4 "
+        " card5 card5 "
+        " card6 card6 "
+        " card7 card8 "
+        ;
+
+        .card:nth-child(1) {
+            grid-area: card1;
+            height: 20.25rem;
+        }
+
+        .card:nth-child(2) {
+            grid-area: card2;
+            justify-content: space-between;
+            padding: var(--spacing-300);
+
+            h2 {
+                max-width: 13rem;
+            }
+        }
+
+        .card:nth-child(3) {
+            grid-area: card3;
+            padding: var(--spacing-300) var(--spacing-300) 0;
+
+            h2 {
+                max-width: 15.688rem;
+            }
+        }
+
+        .card:nth-child(4) {
+            grid-area: card4;
+        }
+
+        .card:nth-child(5) {
+            grid-area: card5;
+            flex-direction: row;
+
+            h3 {
+                text-align: start;
+            }
+        }
+
+        .card:nth-child(6) {
+            grid-area: card6;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .card:nth-child(7) {
+            grid-area: card7;
+            padding: var(--spacing-300);
+        }
+
+        .card:nth-child(8) {
+            grid-area: card8;
+        }
+
+        h1 {
+            font-size: 3.375rem;
+            max-width: 33rem;
+        }
+        h2 {
+            font-size: 1.75rem;
+            line-height: 1.625rem;
+            letter-spacing: -0.105rem;
+        }
+        h3 {
+            font-size: 2.25rem;
+            line-height: 1.875rem;
+            letter-spacing: -0.135rem;
+        }
+        h4 {
+            font-size: 3.375rem;
+            line-height: 3rem;
+            letter-spacing: -0.135rem;
+        }
+    }
+}
+
+/* 1280px = 80rem */
+@media (width >= 80rem) {
+    body {
+        background: #F6F5F6;
+        max-width: 1200px;
+        margin: auto;
+    }
+    .container {
+        max-height: 60.313rem;
+        max-width: 75rem;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 2fr 50px 1fr 1.5fr;
+        grid-template-areas:
+        " card7 card1 card1 card4 "
+        " card7 card2 card3 card4 "
+        " card8 card2 card3 card4 "
+        " card8 card6 card5 card5 "
+        ;
+
+        .card:nth-child(1) {
+            height: auto;
+        }
+
+        .card:nth-child(2) {
+            overflow: hidden;
+
+            .img-wrapper {
+                margin-inline-end: -7rem;
+            }
+            
+        }
+
+        .card:nth-child(3) {
+            overflow: hidden;
+        }
+
+        .card:nth-child(4) {
+            overflow: hidden;
+
+            .img-wrapper {
+                margin-inline-end: -10rem;
+            }
+
+            p {
+                text-align: left;
+            }
+        }
+
+        .card:nth-child(6) {
+            flex-direction: column;
+        }
+
+        .card:nth-child(8) {
+            justify-content: space-between;
+        }   
+
+        h1 {
+            font-size: 3.875rem;
+            line-height: 3.625rem;
+            /* letter-spacing: -0.188rem; */
+        }
+        h2 {
+            font-size: 2rem;
+            line-height: 1.75rem;
+            letter-spacing: -0.125rem;
+        }
+        h3 {
+            font-size: 2.5rem;
+            line-height: 2.25rem;
+            letter-spacing: -0.125rem;
+        }
+        h4 {
+            font-size: 3.875rem;
+            line-height: 3.625rem;
+            letter-spacing: -0.188rem;
+        }
+    }
+
+    
+}
