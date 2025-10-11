@@ -1,0 +1,124 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #000000, #2b0064);
+      color: white;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .nav {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav li a {
+      text-decoration: none;
+      color: #bbb;
+      font-size: 14px;
+    }
+
+    .nav li a:hover {
+      color: white;
+    }
+
+    .btn {
+      background: #32e36e;
+      color: black;
+      padding: 12px 24px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      width: 400px;
+      
+    }
+
+    
+    
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      max-width: 700px;
+      margin: 0 auto 20px;
+    }
+
+    .hero h1 span {
+      color: #32e36e;
+    }
+
+    .hero p {
+      font-size: 16px;
+      color: #ccc;
+      max-width: 500px;
+      margin: 0 auto 30px;
+    }
+
+    .big_phone {
+      width: 100%;
+      border-radius: 40px;
+      display: flex;
+      justify-content: center;
+      
+    }
+
+    .big_phone img{
+      height: 400px;
+      
+    }
+
+    
+    .background_thing {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 100px 50px;
+      gap: 50px;
+    }
+
+    .background_thing_txt {
+      max-width: 400px;
+    }
+
+    .background_thing_txt h2 {
+      font-size: 40px;
+    }
+
+    .background_thing_txt h2 span {
+      color: #32e36e;
+    }
+
+    .phone {
+      width: 318px;
+      height: 688px;
+    }
+
+    .phone img {
+      max-width: 100%;
+      border-radius: 20px;
+    }
+
+    .phone{
+      margin-left:250px;
+
+      box-shadow: 6px 0px 50px rgb(24, 24, 24);
+      
+      border: 2px solid rgb(50, 50, 50);
+      border-radius: 40px;
+    }
