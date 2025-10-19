@@ -1,4 +1,4 @@
-let score = prompt("Enter your score (0-100):");
+let score = Number(prompt("Enter your score (0-100):"));
 
 
 if (score >= 90) {

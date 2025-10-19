@@ -1,5 +1,5 @@
-let age = prompt("Enter your age:");
-let energy = prompt("Enter your energy level (1-10):");
+let age = Number(prompt("Enter your age:"));
+let energy = Number(prompt("Enter your energy level (1-10):"));
 
 
 if (age < 20 && energy > 7) {
