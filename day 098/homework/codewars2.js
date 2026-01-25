@@ -1,4 +1,21 @@
 //https://www.codewars.com/kata/5208f99aee097e6552000148
 
-let reason = "ვერც ეს გავაკეთე 😭"
-console.log(reason)
+function validateNumber(str){
+  
+  let res = ""
+  
+  for(let i of str){
+    if(i !== "-"){
+      res += i
+    }
+  }
+  if(res.slice(0,2) === "07" && res.length === 11){
+    return "In with a chance"
+  }
+  else if(res.slice(0,3) === "+44" && res.length === 13){
+    return "In with a chance"
+  }
+  else{
+    return "Plenty more fish in the sea"
+  }
+}
