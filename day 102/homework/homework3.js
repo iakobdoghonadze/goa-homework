@@ -7,7 +7,6 @@ let list = [
   "world",
   true,
   "javascript",
-  null,
   3.14,
   "string",
   "wasabi",
