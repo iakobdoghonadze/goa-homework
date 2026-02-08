@@ -6,7 +6,8 @@ let key = prompt("enter a key:")
 
 if (key in myObject) {
   console.log(myObject[key])
-} else {
+}
+else {
   let value = prompt("enter a value:")
   myObject[key] = value
   console.log(myObject)
